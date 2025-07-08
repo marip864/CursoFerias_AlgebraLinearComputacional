@@ -35,3 +35,11 @@ for linha in L:
 print("\nMatriz U:")
 for linha in U:
     print(linha)
+
+# Entrada do vetor B
+vetor = list(map(int, input(f'Digite agora os {n} elementos do vetor B: ').split()))
+if len(vetor) != n:
+    print("Número incorreto de elementos no vetor. Tente novamente.")
+    exit()
+
+y = [0]*n
